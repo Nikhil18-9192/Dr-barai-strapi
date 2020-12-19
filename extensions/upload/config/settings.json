@@ -1,0 +1,21 @@
+{
+  "provider": "google-cloud-storage",
+  "providerOptions": {
+    "serviceAccount": {
+      "type": "service_account",
+      "project_id": "dr-barai",
+      "private_key_id": "bcd0ddb23042c5ad8732298afb1e7c6576f9f71c",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDO0lxmHYOvMswk\nzatB50eDQkrHFVOs7c/9mE6SUJ2Fc5ZAdfT5IxykpGQKudWNrL2NQQfnZUrkeaIW\nNEhcUlwn0dqvsN24TOFrud3dctWUmATJtAB3g9SKX56mzltDdt4YJezLFgGzOAZN\nQZxC/dtMHZCYgHKNGKdqn1pMOplmRU5MO0gG+P626qo9249Ux1V3UQJrmgJsI0FP\nhaELp2AYkBGhv7kroWYyS9W61HbGS0tBFnfov7BOyDKJPA3HU3y0eRJ4Ccp9a9eS\nfCOCNwR4fWtfGMJInphYgqKL+Hs64YhgRobsDQKpiJrt5LlXLeq1edFYDBVDAJLN\nEU2IdCUFAgMBAAECggEABlkPi/TQ82IoQOLtJDcwizdQKz8c09xyu1Je6v+9bfin\nvm/AZpssyGLhTTD5/IC2Sq0ZzIDf5RZUosDVDbxbZr96qlTP4VW+v3szc5YQNyDZ\nWMWFFCYAMoUPzgfcZjwyQeR8GZmh0Lnh+6INZUL8ZaAsrXmXynvcu5mLgHZ1+d0N\nhOgzAzMNF5k/W1AfsFlOJZrKOdnfhZRFQf8tttYpQxjGJCQeldgPI54hAOPebrZv\noyzN3HxrbGau2CDJg2bhwZ1uz+EmMa6VoVoinz8VrIbQNLZhrntyDoJgeHBcPrVV\n9KF3JaGa+ezRh/f37LVy39MMEAXVnKOIWDTUOTaf6wKBgQD72kNOY3wkl3wx1c3A\nOVDrfksSr/cpSQRaNzYlKcBPWuMwzujdCPl5yd2qW7ELHRxLfwlfVwZfptKw4ez1\nOQ2u1Ax7+8Dpxqy/gJpxE04ZPfrRL1Fz4LV7Ngo+CtA07R6JIOg1NLx6DDGlJS+1\n7xI2FUE+TguB702o9Rpah+hp7wKBgQDSOkLRsHYBjo6cerODEWi7sL4twh07ldDY\nK6nRRwh18y/e3JsUI1ZpC21DW/kQFL3wuenWizKMr5Tg8Bbz4OIRxk9jmiJOYHye\nypPgM4NOKllGL7QqeE/gwGsoxoo/bCslLX9PWWwS0vIbCXyVXFoeu5f57TBpRKmw\nSbhn5ICkSwKBgQDuBZ+qzBcdthVoO/qSexjhF6D37loXKKz2XkvL36Oi2/Dvxf0K\nOVseIQxf3vx51m9RYqSG+IZLjCx/g2YhdGRcIIgT/SCbUGsfKfnMeERNUuhjHudK\nLssVwUL409tmydscGn+bGVYvuqqIu5ZVybZaasgYjEYP7QxmbA8WFHAw/QKBgFDf\n0OzSMdOPgBV6rqxxehUafU8lKhHOJLXEtmOoK/0UPQpDW/V3Urq+hp4vN7WUBS4i\nl27NxfiRY3jVZD8V+GJWJBxxI1l7jPWZgSHzL0RWzllN6MWd2zzfSVo6ZtzXRBHd\nWuivwf/L3w+/qonbKWBBUsn3EXSt0YncEnEFWufZAoGATQgypHf3goIM9nGjvD37\n1NqS3j4+LSEN0/35XLbIdOE/X8/DI9ItDsZ+82o7E19ZjwLo1h1F26JEmmQsO1l0\n/dlU9pFUqtCGv1AYTCmim1DxZ7ZDNJZBf11Hb3TjOgaKzdIK0AT4yhEAdD5zKyYk\nvpu50PZheuTZ1GQabePeJto=\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-1fcqm@dr-barai.iam.gserviceaccount.com",
+      "client_id": "102379576680034325145",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1fcqm%40dr-barai.iam.gserviceaccount.com"
+    },
+    "bucketName": "dr-barai.appspot.com",
+    "baseUrl": "https://storage.googleapis.com/dr-barai.appspot.com",
+    "basePath": "/strapi",
+    "publicFiles": true
+  }
+}
