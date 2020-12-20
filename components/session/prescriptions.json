@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_session_prescriptions",
+  "info": {
+    "name": "prescriptions",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "drugs": {
+      "collection": "drug"
+    },
+    "instructions": {
+      "type": "text"
+    },
+    "dosageFrequency": {
+      "type": "component",
+      "repeatable": false,
+      "component": "session.drug-frequency"
+    }
+  }
+}

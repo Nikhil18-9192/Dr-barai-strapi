@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appointments",
+  "info": {
+    "name": "appointment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "patient": {
+      "via": "appointments",
+      "model": "patient"
+    },
+    "vitalSigns": {
+      "type": "component",
+      "repeatable": false,
+      "component": "session.vital-form"
+    },
+    "clinicalNotes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "session.clinical-notes"
+    },
+    "prescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "session.prescriptions"
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

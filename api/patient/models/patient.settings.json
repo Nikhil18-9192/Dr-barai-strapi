@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patients",
+  "info": {
+    "name": "patient",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mobile": {
+      "type": "integer",
+      "min": 10
+    },
+    "email": {
+      "type": "email"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "date"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "appointments": {
+      "collection": "appointment",
+      "via": "patient"
+    },
+    "pincode": {
+      "type": "string",
+      "regex": "^[1-9][0-9]{5}$",
+      "required": true
+    }
+  }
+}

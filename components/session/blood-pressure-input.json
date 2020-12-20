@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_session_blood_pressure_inputs",
+  "info": {
+    "name": "blood pressure input",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "bpSystolic": {
+      "type": "decimal",
+      "required": true,
+      "min": 50
+    },
+    "bpDiastolic": {
+      "type": "decimal",
+      "required": true,
+      "min": 25
+    },
+    "bpMeasurementPosition": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

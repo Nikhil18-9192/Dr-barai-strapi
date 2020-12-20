@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_session_temperature_measurement_positions",
+  "info": {
+    "name": "temperature measurement position",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "temperature": {
+      "type": "decimal",
+      "required": true
+    },
+    "tempMeasurementPosition": {
+      "type": "enumeration",
+      "enum": [
+        "axillary",
+        "oral",
+        "tympanic",
+        "temporal",
+        "rectal"
+      ]
+    }
+  }
+}

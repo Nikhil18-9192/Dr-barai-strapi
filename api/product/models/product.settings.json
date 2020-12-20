@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "itemcode": {
+      "type": "string"
+    },
+    "reorderLevel": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "retailPrice": {
+      "type": "decimal",
+      "min": 0,
+      "required": true
+    },
+    "serviceTax": {
+      "type": "boolean",
+      "default": false
+    },
+    "sbcTax": {
+      "type": "boolean",
+      "default": false
+    },
+    "kkcTax": {
+      "type": "boolean",
+      "default": false
+    },
+    "itemType": {
+      "type": "enumeration",
+      "enum": [
+        "drug",
+        "equipment",
+        "supplies"
+      ],
+      "required": true
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "stockingUnit": {
+      "type": "enumeration",
+      "enum": [
+        "bottles",
+        "strips"
+      ]
+    },
+    "stock": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    }
+  }
+}

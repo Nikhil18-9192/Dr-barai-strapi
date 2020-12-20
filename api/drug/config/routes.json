@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drugs",
+      "handler": "drug.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drugs/count",
+      "handler": "drug.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drugs/:id",
+      "handler": "drug.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/drugs",
+      "handler": "drug.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drugs/:id",
+      "handler": "drug.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drugs/:id",
+      "handler": "drug.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

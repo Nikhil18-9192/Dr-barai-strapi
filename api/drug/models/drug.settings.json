@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drugs",
+  "info": {
+    "name": "drug",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "drugType": {
+      "type": "enumeration",
+      "enum": [
+        "capsule",
+        "cream",
+        "drops",
+        "foam",
+        "gel",
+        "inhaler",
+        "injection",
+        "lotion",
+        "mouthwash",
+        "ointment",
+        "powder",
+        "shampoo",
+        "spray",
+        "syringe",
+        "syrup",
+        "tablet",
+        "toothpaste",
+        "austone",
+        "suspension",
+        "serum",
+        "globules",
+        "solution"
+      ]
+    },
+    "strength": {
+      "type": "decimal",
+      "required": true
+    },
+    "dosageUnit": {
+      "type": "string"
+    }
+  }
+}

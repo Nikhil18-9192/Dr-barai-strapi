@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_session_vital_forms",
+  "info": {
+    "name": "vital form",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "weight": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "pulse": {
+      "type": "decimal",
+      "required": true
+    },
+    "respRate": {
+      "type": "decimal"
+    },
+    "bp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "session.blood-pressure-input",
+      "required": true
+    },
+    "temperature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "session.temperature-measurement-position",
+      "required": true
+    }
+  }
+}
