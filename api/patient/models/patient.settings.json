@@ -28,9 +28,6 @@
     "birthDate": {
       "type": "date"
     },
-    "age": {
-      "type": "integer"
-    },
     "occupation": {
       "type": "string"
     },
@@ -48,6 +45,9 @@
       "type": "string",
       "regex": "^[1-9][0-9]{5}$",
       "required": true
+    },
+    "bloodGroup": {
+      "type": "string"
     }
   }
 }
