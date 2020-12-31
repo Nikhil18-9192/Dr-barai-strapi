@@ -12,8 +12,8 @@
   },
   "attributes": {
     "patient": {
-      "via": "appointments",
-      "model": "patient"
+      "model": "patient",
+      "via": "appointments"
     },
     "vitalSigns": {
       "type": "component",
@@ -39,6 +39,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "time"
     }
   }
 }

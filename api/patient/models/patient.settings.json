@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "mobile": {
-      "type": "integer",
-      "min": 10
-    },
     "email": {
       "type": "email"
     },
@@ -38,8 +34,8 @@
       "type": "string"
     },
     "appointments": {
-      "collection": "appointment",
-      "via": "patient"
+      "via": "patient",
+      "collection": "appointment"
     },
     "pincode": {
       "type": "string",
@@ -48,6 +44,11 @@
     },
     "bloodGroup": {
       "type": "string"
+    },
+    "mobile": {
+      "type": "string",
+      "required": true,
+      "regex": "^[789]\\d{9}$"
     }
   }
 }
