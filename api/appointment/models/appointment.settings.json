@@ -25,11 +25,6 @@
       "repeatable": false,
       "component": "session.clinical-notes"
     },
-    "prescription": {
-      "type": "component",
-      "repeatable": false,
-      "component": "session.prescriptions"
-    },
     "files": {
       "collection": "file",
       "via": "related",
@@ -45,6 +40,11 @@
     },
     "time": {
       "type": "time"
+    },
+    "prescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "session.prescription-item"
     }
   }
 }
