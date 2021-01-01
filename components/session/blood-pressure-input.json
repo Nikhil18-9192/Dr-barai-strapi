@@ -2,7 +2,8 @@
   "collectionName": "components_session_blood_pressure_inputs",
   "info": {
     "name": "blood pressure input",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,7 +19,8 @@
     },
     "bpMeasurementPosition": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "resting"
     }
   }
 }
