@@ -17,19 +17,10 @@
       "required": true,
       "min": 25
     },
-<<<<<<< HEAD
-    "bpMeasurmentPosition": {
-      "type": "enumeration",
-      "enum": [
-        "standing",
-        "seating"
-      ]
-=======
     "bpMeasurementPosition": {
       "type": "string",
       "required": true,
       "default": "resting"
->>>>>>> 971190fd2ca7a31146f68b19a0fb41e01f6d9d64
     }
   }
 }
