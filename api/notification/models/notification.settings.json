@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "name": "notification",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "patients": {
+      "collection": "patient",
+      "via": "notifications",
+      "dominant": true
+    },
+    "message": {
+      "type": "text"
+    },
+    "sendToAll": {
+      "type": "boolean"
+    }
+  }
+}

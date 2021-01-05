@@ -38,9 +38,6 @@
     "date": {
       "type": "date"
     },
-    "time": {
-      "type": "time"
-    },
     "prescription": {
       "type": "component",
       "repeatable": true,
