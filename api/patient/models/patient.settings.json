@@ -49,6 +49,10 @@
       "type": "string",
       "required": true,
       "regex": "^[789]\\d{9}$"
+    },
+    "notifications": {
+      "via": "patients",
+      "collection": "notification"
     }
   }
 }
