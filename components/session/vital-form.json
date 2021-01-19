@@ -23,13 +23,13 @@
       "type": "component",
       "repeatable": false,
       "component": "session.blood-pressure-input",
-      "required": true
+      "required": false
     },
     "temperature": {
       "type": "component",
       "repeatable": false,
       "component": "session.temperature-measurement-position",
-      "required": true
+      "required": false
     }
   }
 }

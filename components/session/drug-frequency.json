@@ -29,7 +29,7 @@
       "type": "string"
     },
     "drugDuration": {
-      "required": true,
+      "required": false,
       "type": "integer"
     },
     "instructions": {

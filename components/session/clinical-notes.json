@@ -2,25 +2,26 @@
   "collectionName": "components_session_clinical_notes",
   "info": {
     "name": "clinical notes",
-    "icon": "ambulance"
+    "icon": "ambulance",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "complaints": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "observations": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "diagnoses": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "notes": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }

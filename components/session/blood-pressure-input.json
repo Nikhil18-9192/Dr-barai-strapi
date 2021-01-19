@@ -9,17 +9,15 @@
   "attributes": {
     "bpSystolic": {
       "type": "decimal",
-      "required": true,
-      "min": 50
+      "required": false
     },
     "bpDiastolic": {
       "type": "decimal",
-      "required": true,
-      "min": 25
+      "required": false
     },
     "bpMeasurementPosition": {
       "type": "string",
-      "required": true,
+      "required": false,
       "default": "resting"
     }
   }
