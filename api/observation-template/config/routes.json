@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/observation-templates",
+      "handler": "observation-template.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/observation-templates/count",
+      "handler": "observation-template.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/observation-templates/:id",
+      "handler": "observation-template.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/observation-templates",
+      "handler": "observation-template.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/observation-templates/:id",
+      "handler": "observation-template.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/observation-templates/:id",
+      "handler": "observation-template.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "observation_templates",
+  "info": {
+    "name": "Observation-Template"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
