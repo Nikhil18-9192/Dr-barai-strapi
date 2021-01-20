@@ -20,6 +20,7 @@ module.exports = {
 
     async beforeUpdate(params, data) {
       const clinicalNotes = data.clinicalNotes;
+      if (!clinicalNotes) return;
       if (clinicalNotes.observations) {
         await updateObsTemplates(clinicalNotes.observations);
       }
