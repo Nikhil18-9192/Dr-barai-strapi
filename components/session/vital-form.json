@@ -10,11 +10,13 @@
     "weight": {
       "type": "decimal",
       "required": true,
-      "min": 0
+      "min": 0,
+      "default": 0
     },
     "pulse": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "default": 0
     },
     "respRate": {
       "type": "decimal"

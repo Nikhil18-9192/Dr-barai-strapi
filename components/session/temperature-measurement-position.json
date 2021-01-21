@@ -2,13 +2,15 @@
   "collectionName": "components_session_temperature_measurement_positions",
   "info": {
     "name": "temperature measurement position",
-    "icon": "ankh"
+    "icon": "ankh",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "temperature": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "default": 0
     },
     "tempMeasurementPosition": {
       "type": "enumeration",
