@@ -42,6 +42,20 @@
       "type": "component",
       "repeatable": true,
       "component": "session.prescription-item"
+    },
+    "consent": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "nativeProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "session.session-product"
     }
   }
 }

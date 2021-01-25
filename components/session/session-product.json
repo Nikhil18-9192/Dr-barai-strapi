@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_session_session_products",
+  "info": {
+    "name": "SessionProduct",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "product"
+    },
+    "quantity": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    }
+  }
+}
