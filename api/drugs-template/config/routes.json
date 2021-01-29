@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drugs-templates",
+      "handler": "drugs-template.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drugs-templates/count",
+      "handler": "drugs-template.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drugs-templates/:id",
+      "handler": "drugs-template.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/drugs-templates",
+      "handler": "drugs-template.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drugs-templates/:id",
+      "handler": "drugs-template.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drugs-templates/:id",
+      "handler": "drugs-template.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

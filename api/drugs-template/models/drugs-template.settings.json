@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drugs_templates",
+  "info": {
+    "name": "Drugs Template",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "template": {
+      "type": "component",
+      "repeatable": true,
+      "component": "session.prescription-item"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
