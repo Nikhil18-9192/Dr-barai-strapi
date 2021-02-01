@@ -10,7 +10,7 @@ const queryString = require("query-string");
 const PROMO_KEY = `X2g9E3wlciH7RhqW`;
 const TRAN_KEY = "QUeoo2jtaF2I8JAc";
 const API_URL = "https://www.hellotext.live/vb/apikey.php?";
-const senderid = "MSGMSG";
+const senderid = "DBARAI";
 
 module.exports = {
   lifecycles: {
