@@ -11,7 +11,8 @@ const PROMO_KEY = `X2g9E3wlciH7RhqW`;
 const TRAN_KEY = "QUeoo2jtaF2I8JAc";
 const API_URL = "https://www.hellotext.live/vb/apikey.php?";
 const senderid = "DBARAI";
-
+const moment = require("moment");
+const dateFormat = "YYYY-MM-DD hh:mma";
 module.exports = {
   lifecycles: {
     async afterCreate(result) {
@@ -38,6 +39,10 @@ const sendMessageToAll = (result) => {
       senderid,
     };
 
+    if (result.sendOn) {
+      params.time = moment(result.sendOn).format(dateFormat);
+    }
+
     const url =
       API_URL + queryString.stringify(params, { arrayFormat: "comma" });
     try {
@@ -51,6 +56,7 @@ const sendMessageToAll = (result) => {
 
 const sendMessageToSelected = (result) => {
   return new Promise(async (resolve, reject) => {
+    console.log("test");
     const apikey = result.type === "promotion" ? PROMO_KEY : TRAN_KEY;
     const nums = result.patients.map((n) => n.mobile);
     const params = {
@@ -60,10 +66,15 @@ const sendMessageToSelected = (result) => {
       senderid,
     };
 
+    if (result.sendOn) {
+      params.time = moment(result.sendOn).format(dateFormat);
+    }
+    console.log(params);
     const url =
       API_URL + queryString.stringify(params, { arrayFormat: "comma" });
     try {
-      await axios.get(url);
+      const res = await axios.get(url);
+
       resolve();
     } catch (error) {
       reject(error);
