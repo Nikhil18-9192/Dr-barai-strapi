@@ -73,8 +73,7 @@ const sendMessageToSelected = (result) => {
     const url =
       API_URL + queryString.stringify(params, { arrayFormat: "comma" });
     try {
-      const res = await axios.get(url);
-
+      await axios.get(url);
       resolve();
     } catch (error) {
       reject(error);

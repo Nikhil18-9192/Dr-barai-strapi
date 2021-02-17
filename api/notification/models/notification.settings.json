@@ -12,8 +12,8 @@
   },
   "attributes": {
     "patients": {
-      "collection": "patient",
       "via": "notifications",
+      "collection": "patient",
       "dominant": true
     },
     "message": {

@@ -12,8 +12,8 @@
   },
   "attributes": {
     "patient": {
-      "model": "patient",
-      "via": "appointments"
+      "via": "appointments",
+      "model": "patient"
     },
     "vitalSigns": {
       "type": "component",

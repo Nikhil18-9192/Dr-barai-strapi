@@ -28,19 +28,19 @@
       "type": "string"
     },
     "address": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "city": {
       "type": "string"
     },
     "appointments": {
-      "via": "patient",
-      "collection": "appointment"
+      "collection": "appointment",
+      "via": "patient"
     },
     "pincode": {
       "type": "string",
-      "regex": "^[1-9][0-9]{5}$",
-      "required": true
+      "required": false
     },
     "bloodGroup": {
       "type": "string"
@@ -51,8 +51,8 @@
       "regex": "^[789]\\d{9}$"
     },
     "notifications": {
-      "via": "patients",
-      "collection": "notification"
+      "collection": "notification",
+      "via": "patients"
     }
   }
 }
