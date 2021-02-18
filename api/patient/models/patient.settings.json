@@ -53,6 +53,15 @@
     "notifications": {
       "collection": "notification",
       "via": "patients"
+    },
+    "profile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
