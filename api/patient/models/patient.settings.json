@@ -51,8 +51,8 @@
       "regex": "^[789]\\d{9}$"
     },
     "notifications": {
-      "collection": "notification",
-      "via": "patients"
+      "via": "patients",
+      "collection": "notification"
     },
     "profile": {
       "model": "file",
