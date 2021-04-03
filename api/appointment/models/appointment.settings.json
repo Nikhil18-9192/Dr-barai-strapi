@@ -12,8 +12,8 @@
   },
   "attributes": {
     "patient": {
-      "via": "appointments",
-      "model": "patient"
+      "model": "patient",
+      "via": "appointments"
     },
     "vitalSigns": {
       "type": "component",
@@ -42,15 +42,6 @@
       "type": "component",
       "repeatable": true,
       "component": "session.prescription-item"
-    },
-    "consent": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files"
-      ],
-      "plugin": "upload",
-      "required": false
     },
     "nativeProducts": {
       "type": "component",

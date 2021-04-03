@@ -35,8 +35,8 @@
       "type": "string"
     },
     "appointments": {
-      "collection": "appointment",
-      "via": "patient"
+      "via": "patient",
+      "collection": "appointment"
     },
     "pincode": {
       "type": "string",
@@ -59,6 +59,15 @@
       "via": "related",
       "allowedTypes": [
         "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "consent": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
       ],
       "plugin": "upload",
       "required": false
