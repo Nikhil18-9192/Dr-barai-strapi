@@ -37,6 +37,7 @@ const sendMessageToAll = (result) => {
       number: nums.map((n) => n.mobile),
       message: result.message,
       senderid,
+      templateid: result.templateid,
     };
 
     if (result.sendOn) {

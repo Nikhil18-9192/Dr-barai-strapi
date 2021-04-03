@@ -12,8 +12,8 @@
   },
   "attributes": {
     "patients": {
-      "via": "notifications",
       "collection": "patient",
+      "via": "notifications",
       "dominant": true
     },
     "message": {
@@ -33,6 +33,10 @@
     },
     "sendOn": {
       "type": "datetime"
+    },
+    "templateid": {
+      "type": "string",
+      "default": "1207161494967775664"
     }
   }
 }
