@@ -9,13 +9,13 @@
   "attributes": {
     "weight": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "min": 0,
       "default": 0
     },
     "pulse": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "default": 0
     },
     "respRate": {

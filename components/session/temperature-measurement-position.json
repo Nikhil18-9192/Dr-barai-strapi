@@ -9,7 +9,7 @@
   "attributes": {
     "temperature": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "default": 0
     },
     "tempMeasurementPosition": {

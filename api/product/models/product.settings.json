@@ -16,13 +16,13 @@
     },
     "reorderLevel": {
       "type": "integer",
-      "required": true,
+      "required": false,
       "min": 0
     },
     "retailPrice": {
       "type": "decimal",
       "min": 0,
-      "required": true
+      "required": false
     },
     "serviceTax": {
       "type": "boolean",
@@ -40,10 +40,10 @@
       "type": "enumeration",
       "enum": [
         "drug",
-        "equipment",
-        "supplies"
+        "equip",
+        "suppliment"
       ],
-      "required": true
+      "required": false
     },
     "manufacturer": {
       "type": "string"
@@ -57,7 +57,7 @@
     },
     "stock": {
       "type": "integer",
-      "required": true,
+      "required": false,
       "min": 0
     },
     "name": {

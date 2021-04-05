@@ -43,7 +43,7 @@
     },
     "strength": {
       "type": "decimal",
-      "required": true
+      "required": false
     },
     "dosageUnit": {
       "type": "string"
