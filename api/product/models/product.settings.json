@@ -40,7 +40,7 @@
       "type": "enumeration",
       "enum": [
         "drug",
-        "equip",
+        "equipment",
         "suppliment"
       ],
       "required": false
